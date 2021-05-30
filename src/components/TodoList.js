@@ -10,6 +10,7 @@ const TodoList = ({ todos, setTodos }) => {
             setTodos={setTodos}
             todos={todos}
             key={todo.id}
+            todo={todo}
             text={todo.text}
           />
         ))}
